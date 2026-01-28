@@ -4,7 +4,7 @@ export async function sendMsgToOpenRouter(message) {
     {
       method: "POST",
       headers: {
-        "Authorization": `Bearer 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`,
+        "Authorization": `Bearer 'USE YOUR API KEY HERE'`,
         "Content-Type": "application/json",
         "HTTP-Referer": "http://localhost:3000", 
         "X-Title": "Chatbot"
